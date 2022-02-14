@@ -152,7 +152,7 @@ func main() {
 
 	fmt.Printf("\nДанные за период с %v по %v включительно\n", StartDate, FinishDate)
 	fmt.Printf("\nДень, с минимальной разницей ощущаемой и фактической температуры ночью: %v,\nРазница температур: %.2f°C.\n\n", DateMinDiffTemp, MinDiffTemp)
-	fmt.Printf("Максимальная продолжительность светового дня:\nДата: %v, Длительность дня: %v.", mostLongDay1, mostLongTime1)
+	fmt.Printf("Максимальная продолжительность светового дня:\nДата: %v, Длительность дня: %v.\n", mostLongDay1, mostLongTime1)
 
 	os.Remove("data.json")
 }
